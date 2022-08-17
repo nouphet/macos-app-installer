@@ -18,3 +18,8 @@ brew install --cask vnc-viewer
 
 # Personal needs
 brew install --cask chatwork
+
+# Auto update
+# https://www.orzs.tech/homebrew-auto-update/
+brew tap homebrew/autoupdate
+brew autoupdate start
