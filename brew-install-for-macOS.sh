@@ -3,6 +3,7 @@ brew update
 brew install --cask alfred
 brew install --cask iterm2
 brew install --cask google-chrome
+brew install --cask firefox
 brew install --cask firefox-developer-edition
 brew install --cask google-japanese-IME
 brew install --cask 1password
@@ -15,6 +16,7 @@ brew install tig
 brew install --cask toggl-track
 brew install --cask discord
 brew install --cask vnc-viewer
+brew install --cask microsoft-edge
 
 # Personal needs
 brew install --cask chatwork
