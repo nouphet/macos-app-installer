@@ -8,7 +8,8 @@ brew install jq
 brew install wget
 brew install go
 brew install python
-brew install rust
+brew install rust rustup
+
 brew install docker-compose
 brew install minikube
 brew install kubernetes-cli
@@ -19,6 +20,11 @@ brew install tfenv
 brew install kubectx
 brew install tig
 
+# Rust settings
+rustup default stable
+rustup component add rust-src
+rustup component add rust-analysis
+rustup component add rls
 
 # For business needs
 brew install --cask alfred
