@@ -6,6 +6,7 @@ brew install awscli
 brew install starship
 brew install jq
 brew install wget
+brew install htop
 brew install screen
 brew install tmux
 brew install neovim
