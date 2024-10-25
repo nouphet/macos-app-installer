@@ -6,6 +6,10 @@ brew install awscli
 brew install starship
 brew install jq
 brew install wget
+brew install screen
+brew install tmux
+brew install neovim
+
 brew install go
 brew install python
 brew install rust rustup
