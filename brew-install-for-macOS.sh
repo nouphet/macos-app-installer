@@ -35,6 +35,7 @@ rustup component add rls
 brew install --cask alfred
 brew install --cask iterm2
 brew install --cask google-chrome
+brew install --cask arc
 brew install --cask firefox
 brew install --cask firefox-developer-edition
 brew install --cask google-japanese-IME
