@@ -33,6 +33,7 @@ rustup component add rls
 
 # For business needs
 brew install --cask alfred
+brew install --cask Bartender
 brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask arc
