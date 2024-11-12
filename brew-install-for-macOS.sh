@@ -31,6 +31,9 @@ rustup component add rust-src
 rustup component add rust-analysis
 rustup component add rls
 
+# Install Rosetta for docker to Apple Silicon Mac
+softwareupdate --install-rosetta
+
 # For business needs
 brew install --cask alfred
 brew install --cask Bartender
