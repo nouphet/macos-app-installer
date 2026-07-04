@@ -72,3 +72,28 @@ brew install --cask chatwork
 # https://www.orzs.tech/homebrew-auto-update/
 brew tap homebrew/autoupdate
 brew autoupdate start
+
+#===============================================================================
+# 2026-07-04 追記: Claude Code / Codex / Antigravity の Mac 移行セッションで追加
+#===============================================================================
+
+# CLI tools (formula)
+brew install gh
+brew install node
+brew install uv
+brew install python@3.12
+brew install ffmpeg
+brew install yt-dlp
+brew install sevenzip        # コマンド名は 7zz
+
+# GUI apps (cask)
+brew install --cask cursor
+brew install --cask codex-app        # OpenAI Codex デスクトップアプリ
+brew install --cask antigravity      # Google Antigravity (agent orchestration)
+brew install --cask antigravity-ide  # Antigravity IDE
+brew install --cask obsidian
+
+# brew 管理外（参考・別手段で導入）
+#   Codex CLI       : npm i -g @openai/codex        （または brew install codex）
+#   Antigravity CLI : curl -fsSL https://antigravity.google/cli/install.sh | bash   # agy → ~/.local/bin
+#   Claude Code plugins : claude plugin install superpowers frontend-design marketing-skills
